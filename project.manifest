@@ -1,9 +1,9 @@
 {
-	"packageUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.1.0/",
-	"remoteManifestUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.1.0/project.manifest",
-	"remoteVersionUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.1.0/version.manifest",
-	"remoteDownloadUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.1.0/download.manifest",
-	"remoteDownloadPrefix" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.1.0/",
+	"packageUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.1.1/",
+	"remoteManifestUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.1.1/project.manifest",
+	"remoteVersionUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.1.1/version.manifest",
+	"remoteDownloadUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.1.1/download.manifest",
+	"remoteDownloadPrefix" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.1.1/",
 	"version" : "1",
 	"engineVersion" : "1.0.0",
 	"assets" : {
@@ -11,7 +11,7 @@
 			"md5": "6c5ed2313656a33c3d0c5efa326ce4ae"
 		},
 		"main.js": {
-			"md5": "4a7c588a02410e3a882e7415de4c618e"
+			"md5": "a2af9df89a4dc9865c9a465fd2a4ad35"
 		},
 		"project.json": {
 			"md5": "1a0486afbe8cae339aef4f94aa883599"
@@ -4982,7 +4982,7 @@
 			"md5": "5245171aaca1f139e657da80a22a8ba2"
 		},
 		"res/UI/JoystickN64.json": {
-			"md5": "a2479ebf996d1fecb8370c80f7685a80"
+			"md5": "284b2b10dbff15ca9c6f78d65e86fa59"
 		},
 		"res/UI/JoystickNES.json": {
 			"md5": "cb270f2cc3b254030a284820705cf167"
@@ -5093,7 +5093,7 @@
 			"md5": "03b7a8d4c1d730c4cd747c1733f2ce34"
 		},
 		"res/UI/Options_N64.json": {
-			"md5": "8dfea879a7d03b4930e0220cda5a13d3"
+			"md5": "b5d99e05b1ddd18ea29b2bd554371c35"
 		},
 		"res/UI/Options_SNES.json": {
 			"md5": "16997b4014b46fe099d655bf8148a758"
@@ -5111,7 +5111,7 @@
 			"md5": "294944d1e850953ba35c979b5cdc91db"
 		},
 		"res/UI/RomCell.json": {
-			"md5": "d2866f32009ad343dbf50630e9151774"
+			"md5": "2a0eaa1f50cd3bc9e793b10fd3cfe1fc"
 		},
 		"res/UI/RomInfo.json": {
 			"md5": "041e994e9e6b1ae5714f8dad68ec6e66"
@@ -5192,16 +5192,19 @@
 			"md5": "7382f48a8f0671ec11cf67fd910ac560"
 		},
 		"res/UI/StartupScene_Retro64.json": {
-			"md5": "cf8127a4d5c3a5054d22631e6aeaf768"
+			"md5": "e954d649d7097f4875724106084cac5b"
+		},
+		"res/UI/StartupScene_Retro64_All.json": {
+			"md5": "c8de352c299d656ad26acf67cd17e6e0"
 		},
 		"res/UI/StartupScene_SNK.json": {
-			"md5": "5252c207d9e5879adff114d5ebb0bdf8"
+			"md5": "c036444ae7a92fefafe8be9b8093cb3c"
 		},
 		"res/UI/store/bg.png": {
 			"md5": "0a615473c6e6d9c43a37dd65deaf5005"
 		},
 		"res/UI/store/stores.plist": {
-			"md5": "cc30258f2d70e7a5bc7028658a8e8717"
+			"md5": "75feaabbe78347ef0f28836051c309a8"
 		},
 		"res/UI/store/stores.png": {
 			"md5": "11bd09b5745220aef919b055e267c9d7"
@@ -5549,7 +5552,7 @@
 			"md5": "a026aa29ace543ebf8357651c0535774"
 		},
 		"src/framework/plugins/GameAdapter.js": {
-			"md5": "5e66e1d518aa93444c01305efe8f2f0d"
+			"md5": "a24fe0fe8e4ebfb6eac2ca3d8a2e798a"
 		},
 		"src/framework/plugins/GameAnalytics.js": {
 			"md5": "72ff17030c488c09e4de94ef55100f49"
@@ -5684,7 +5687,7 @@
 			"md5": "94fde6bb6c7b3a2d9226952cf45366f8"
 		},
 		"src/NES/Game/Joystick.js": {
-			"md5": "f95dd9075cc37f8d4078ee16a921027b"
+			"md5": "b29e3a74541897a2db8378325fb74b7c"
 		},
 		"src/NES/gamedata.js": {
 			"md5": "5d301d310ee76a5caa17d245a1e3a5db"
@@ -5693,7 +5696,7 @@
 			"md5": "c0ec2836776ed9a3ade7530b34336cb8"
 		},
 		"src/NES/Home/Home.js": {
-			"md5": "b5e92e0c4aafff74b32db8634359b3da"
+			"md5": "7e9525e17c6ae3c131a28a1edb85551f"
 		},
 		"src/NES/Home/InfoRomLayer.js": {
 			"md5": "717ba7d43eb0e58e3056d79e77019072"
@@ -5711,7 +5714,7 @@
 			"md5": "1dfbd1128b78d0ebb0d8dc1c772cbacf"
 		},
 		"src/NES/Home/ListRomN64Layer.js": {
-			"md5": "40ef486fd9d05b494c83fecd4cc6b78d"
+			"md5": "6db8f7600e2de33bc53d10ff549dfacf"
 		},
 		"src/NES/Home/ListRomSNESLayer.js": {
 			"md5": "f6034824692d5129646410c8c9d38e78"
@@ -5765,7 +5768,7 @@
 			"md5": "6f75bada53b6b9aae03ca89d7480fab7"
 		},
 		"src/NES/tracking.js": {
-			"md5": "7a26ae8269f63109609093ca8ba4d065"
+			"md5": "8b475a5b8a8e5a4b7a4e075a44a404e2"
 		},
 		"src/NES/UI/BaseLayer.js": {
 			"md5": "ddf95796444ad3e7c9299de2f15606fd"
@@ -5774,7 +5777,7 @@
 			"md5": "c351025acd6b27756ab7f1c12a393cd5"
 		},
 		"src/NES/UI/OptionLayer.js": {
-			"md5": "a524eb88f318af41b7a7b244298119ea"
+			"md5": "82e635e7ec0dff2896e9689b70c9e794"
 		},
 		"src/plugin/Facebook.js": {
 			"md5": "f6d6cf699715410479f90a8d087baffb"
