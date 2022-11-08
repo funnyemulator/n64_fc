@@ -4,7 +4,7 @@
 	"remoteVersionUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.1.1/version.manifest",
 	"remoteDownloadUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.1.1/download.manifest",
 	"remoteDownloadPrefix" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.1.1/",
-	"version" : "1",
+	"version" : "2",
 	"engineVersion" : "1.0.0",
 	"assets" : {
 		"config.json": {
@@ -5678,7 +5678,7 @@
 			"md5": "45995a97a11d4ee6e49680f0b52e737e"
 		},
 		"src/NES/Game/GameLayerN64.js": {
-			"md5": "4bd8fa488d9161df5f3aebe2ed67e13a"
+			"md5": "339c1110e5b817d203181039fdf8b302"
 		},
 		"src/NES/Game/GameLayerSNK.js": {
 			"md5": "0d9cdd9d6a0a4b54009444632582e795"
@@ -5768,7 +5768,7 @@
 			"md5": "6f75bada53b6b9aae03ca89d7480fab7"
 		},
 		"src/NES/tracking.js": {
-			"md5": "8b475a5b8a8e5a4b7a4e075a44a404e2"
+			"md5": "7a26ae8269f63109609093ca8ba4d065"
 		},
 		"src/NES/UI/BaseLayer.js": {
 			"md5": "ddf95796444ad3e7c9299de2f15606fd"
