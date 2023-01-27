@@ -1,9 +1,9 @@
 {
-	"packageUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.2.0/",
-	"remoteManifestUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.2.0/project.manifest",
-	"remoteVersionUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.2.0/version.manifest",
-	"remoteDownloadUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.2.0/download.manifest",
-	"remoteDownloadPrefix" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.2.0/",
+	"packageUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.2.1/",
+	"remoteManifestUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.2.1/project.manifest",
+	"remoteVersionUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.2.1/version.manifest",
+	"remoteDownloadUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.2.1/download.manifest",
+	"remoteDownloadPrefix" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.2.1/",
 	"version" : "1",
 	"engineVersion" : "1.0.0",
 	"assets" : {
@@ -2189,7 +2189,7 @@
 			"md5": "0b9c9c6e535fb5a5c21774527c77def5"
 		},
 		"res/db_config/default.json": {
-			"md5": "4b1d3b25e60a378eb33a559e895822a4"
+			"md5": "ded23b7f74d632e3750c2df217899592"
 		},
 		"res/db_gba.txt": {
 			"md5": "8a383ce9e36ac17b569fb156ce837bc3"
@@ -2198,7 +2198,7 @@
 			"md5": "775c28786d9c353cf9bad5478a637fc0"
 		},
 		"res/db_n64.txt": {
-			"md5": "6e1322795f1ee9ba2283ed21a852f6b4"
+			"md5": "167d8f808cbd696e3ec699364ba1d053"
 		},
 		"res/db_nes.txt": {
 			"md5": "4c0b3084f5db6fe6f6cfeb079ea4b5eb"
@@ -4693,6 +4693,12 @@
 		"res/snes/master/rom_arts/zombies_ate_my_neighbors_usa.jpg": {
 			"md5": "30796629086a34524d8e3ef68303553f"
 		},
+		"res/UI/background/429980.jpg": {
+			"md5": "431ceb8a392081b578d47e4d7f7738d6"
+		},
+		"res/UI/background/mame_bg.jpg": {
+			"md5": "61f5d471af741462de2ed85cfc74edc1"
+		},
 		"res/UI/background/WallpaperDog-10771300.jpg": {
 			"md5": "2d60143a97340f7b3109d3d50b67580c"
 		},
@@ -5191,8 +5197,14 @@
 		"res/UI/StartupScene.json": {
 			"md5": "f1aba0fc18d016ea46e5199651da0baf"
 		},
+		"res/UI/StartupScene_ArcadeGames.json": {
+			"md5": "beb05e47f91755c7a190f469d45869eb"
+		},
 		"res/UI/StartupScene_FCEMU.json": {
 			"md5": "997b17233a31c760bbc2e00091addb60"
+		},
+		"res/UI/StartupScene_MAMEArcade.json": {
+			"md5": "c617343a55c2b602dd750047cede14be"
 		},
 		"res/UI/StartupScene_NESFC.json": {
 			"md5": "7382f48a8f0671ec11cf67fd910ac560"
@@ -5229,6 +5241,9 @@
 		},
 		"res/UI/ToastLayer.json": {
 			"md5": "c2e9a18accb20287809e08015a7d08e1"
+		},
+		"res/UI/wp2608155.jpg": {
+			"md5": "025ed3070c8e2b2c5f503dcf0855f20a"
 		},
 		"script/3d/jsb_cocos2d_3d.js": {
 			"md5": "231595ffd7eba6f80b5d0b75fee69062"
@@ -5582,7 +5597,7 @@
 			"md5": "35bb8f53cc21d2d600101ebd3fc7ad9f"
 		},
 		"src/framework/plugins/PlatformWrapper.js": {
-			"md5": "476813db0d0ac62fc0c8aa20415c9784"
+			"md5": "64e3de5674e559077e0a7a2e5d57fd8b"
 		},
 		"src/framework/plugins/Portal.js": {
 			"md5": "e943e77a0f1944259e0dc8f1b1a766bd"
@@ -5690,25 +5705,25 @@
 			"md5": "45995a97a11d4ee6e49680f0b52e737e"
 		},
 		"src/NES/Game/GameLayerN64.js": {
-			"md5": "9c2ff222b4070ab1e90995da503d5970"
+			"md5": "c3f763204fe39155b230df52cc145f5d"
 		},
 		"src/NES/Game/GameLayerSNK.js": {
-			"md5": "84629168286dccd1c49a142a307d1163"
+			"md5": "793509891670b3ff8fd6e88e243b5ec4"
 		},
 		"src/NES/Game/Gamepad.js": {
-			"md5": "94fde6bb6c7b3a2d9226952cf45366f8"
+			"md5": "7852f68b3c3326092e4109b15e1e1f61"
 		},
 		"src/NES/Game/Joystick.js": {
 			"md5": "92a99db046682c34374c02a9fe431347"
 		},
 		"src/NES/gamedata.js": {
-			"md5": "5d301d310ee76a5caa17d245a1e3a5db"
+			"md5": "2bb1dc4eab4819f3cd096145f4545836"
 		},
 		"src/NES/Home/FindROMLayer.js": {
 			"md5": "a11857973e4c06cbc4a7a45cf9df99ce"
 		},
 		"src/NES/Home/Home.js": {
-			"md5": "04bdaddbc3b098f5b2d4fb707ad9a5b2"
+			"md5": "2e1896ecbc2f905ee7aa0ad0973325a1"
 		},
 		"src/NES/Home/InfoRomLayer.js": {
 			"md5": "717ba7d43eb0e58e3056d79e77019072"
@@ -5717,19 +5732,19 @@
 			"md5": "ec2c77dad038aa9258cf6ea346cf02bf"
 		},
 		"src/NES/Home/ListRomGBALayer.js": {
-			"md5": "4a6a9e46c8b49d96e01e9c79b057235c"
+			"md5": "bdeb0b14ba1b952607a4e39444642bc0"
 		},
 		"src/NES/Home/ListRomLayer.js": {
-			"md5": "94b9c54a34fae848204316612eabf366"
+			"md5": "8e4aa9feafdc1f091a119d803e37b1d7"
 		},
 		"src/NES/Home/ListRomMAME.js": {
 			"md5": "1dfbd1128b78d0ebb0d8dc1c772cbacf"
 		},
 		"src/NES/Home/ListRomN64Layer.js": {
-			"md5": "a8033fe3c42954410787eb344c2f0449"
+			"md5": "6bf3f113ba63cd7c3945ffb65e653af7"
 		},
 		"src/NES/Home/ListRomSNESLayer.js": {
-			"md5": "f6034824692d5129646410c8c9d38e78"
+			"md5": "9d10f3acdb917404b848ec438c8b5d40"
 		},
 		"src/NES/Home/MenuLayer.js": {
 			"md5": "5635ed8a4c8cf73a2fe9536081b3faf6"
@@ -5744,7 +5759,7 @@
 			"md5": "ac1996dc79a6c3cfe92d37bb5e1b4703"
 		},
 		"src/NES/Home/StartupScene.js": {
-			"md5": "762563109e62dc8d3a7a5065c0db9822"
+			"md5": "a38a4ad1075c79d918290314fdd91f98"
 		},
 		"src/NES/initForWeb.js": {
 			"md5": "7c011e76000cab79d022a3b8cfdc2ae5"
@@ -5780,7 +5795,7 @@
 			"md5": "db152d2c52b1d698698fd93f57f7fa6c"
 		},
 		"src/NES/tracking.js": {
-			"md5": "d869e0d37fe78b3dc2d3e7816e4fc690"
+			"md5": "8b22da707c2e3ff317fa557b629b529f"
 		},
 		"src/NES/UI/BaseLayer.js": {
 			"md5": "ddf95796444ad3e7c9299de2f15606fd"
