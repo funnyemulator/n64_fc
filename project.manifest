@@ -1,17 +1,17 @@
 {
-	"packageUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.2.1/",
-	"remoteManifestUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.2.1/project.manifest",
-	"remoteVersionUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.2.1/version.manifest",
-	"remoteDownloadUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.2.1/download.manifest",
-	"remoteDownloadPrefix" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.2.1/",
+	"packageUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.2.2/",
+	"remoteManifestUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.2.2/project.manifest",
+	"remoteVersionUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.2.2/version.manifest",
+	"remoteDownloadUrl" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.2.2/download.manifest",
+	"remoteDownloadPrefix" : "https://raw.githubusercontent.com/funnyemulator/n64_fc/v1.2.2/",
 	"version" : "1",
 	"engineVersion" : "1.0.0",
 	"assets" : {
 		"config.json": {
-			"md5": "6c5ed2313656a33c3d0c5efa326ce4ae"
+			"md5": "1bb1ed8e57d900694fdd7f19dbd63e7b"
 		},
 		"main.js": {
-			"md5": "4d0d1ca56c9d6ffee07967b6606f34b7"
+			"md5": "55a71890cf3318e998995918522344b6"
 		},
 		"project.json": {
 			"md5": "1a0486afbe8cae339aef4f94aa883599"
@@ -2189,7 +2189,7 @@
 			"md5": "0b9c9c6e535fb5a5c21774527c77def5"
 		},
 		"res/db_config/default.json": {
-			"md5": "ded23b7f74d632e3750c2df217899592"
+			"md5": "175cf524bc6c19ab9baf4869d301db3f"
 		},
 		"res/db_gba.txt": {
 			"md5": "8a383ce9e36ac17b569fb156ce837bc3"
@@ -4696,14 +4696,23 @@
 		"res/UI/background/429980.jpg": {
 			"md5": "431ceb8a392081b578d47e4d7f7738d6"
 		},
+		"res/UI/background/bg_contra.png": {
+			"md5": "c47f8e14808319f4daf5448f34e287ea"
+		},
 		"res/UI/background/mame_bg.jpg": {
 			"md5": "61f5d471af741462de2ed85cfc74edc1"
+		},
+		"res/UI/background/super-mario-bros-level-ending.jpg": {
+			"md5": "b8592b4edba83707fa7a0b06ed85505e"
 		},
 		"res/UI/background/WallpaperDog-10771300.jpg": {
 			"md5": "2d60143a97340f7b3109d3d50b67580c"
 		},
 		"res/UI/background/WallpaperDog-10771454.jpg": {
 			"md5": "d7f9c24193fbf97799921260fa6e8d16"
+		},
+		"res/UI/background/wp2608155.jpg": {
+			"md5": "025ed3070c8e2b2c5f503dcf0855f20a"
 		},
 		"res/UI/button/bg_button.png": {
 			"md5": "1ffc49ad4e40752538cd1b8a533ef13e"
@@ -4957,6 +4966,9 @@
 		"res/UI/icons/gba_2.png": {
 			"md5": "d272a3dffc63e4722e6b4a102e5afc93"
 		},
+		"res/UI/icons/mario-icon-28.png": {
+			"md5": "df5a191ab6c9753e516f7e0d579a314a"
+		},
 		"res/UI/icons/n64.png": {
 			"md5": "9226e5624d8e4a844b3528fa5b694516"
 		},
@@ -4978,6 +4990,12 @@
 		"res/UI/icons/snes2.png": {
 			"md5": "7993749ecb3354f36ab62c5c778b9402"
 		},
+		"res/UI/image/app_icon_round.png": {
+			"md5": "3972c4b8bea9857dfef771c6d22bfe4b"
+		},
+		"res/UI/image/contra.png": {
+			"md5": "6dc5442cf9452e3c653d47f9586cf43b"
+		},
 		"res/UI/image/getit.png": {
 			"md5": "7dd0c47b3d12a60faeaeb4bf5f687f36"
 		},
@@ -4986,6 +5004,9 @@
 		},
 		"res/UI/image/icon_snk.png": {
 			"md5": "6dfa5d38572b1fa48e451ad908003c6f"
+		},
+		"res/UI/image/mariokarttour.png": {
+			"md5": "09c25608b274c83cc0346dd420ad5311"
 		},
 		"res/UI/image/promo_label.png": {
 			"md5": "5245171aaca1f139e657da80a22a8ba2"
@@ -5120,7 +5141,7 @@
 			"md5": "57613cfc46e7a2b6e4a6f6058111abc1"
 		},
 		"res/UI/RomCell.json": {
-			"md5": "6f48ecb59378e91a3eedd1fe44a9c4c8"
+			"md5": "c35fc4dc2f924f3cdd6adf1d6b9e1e38"
 		},
 		"res/UI/RomCell_Single.json": {
 			"md5": "af7c88d95b2fadfc2fb9197442d3db3f"
@@ -5200,11 +5221,20 @@
 		"res/UI/StartupScene_ArcadeGames.json": {
 			"md5": "beb05e47f91755c7a190f469d45869eb"
 		},
+		"res/UI/StartupScene_Contra.json": {
+			"md5": "84c98afa8b755b0e5554936528cd88df"
+		},
 		"res/UI/StartupScene_FCEMU.json": {
 			"md5": "997b17233a31c760bbc2e00091addb60"
 		},
 		"res/UI/StartupScene_MAMEArcade.json": {
 			"md5": "c617343a55c2b602dd750047cede14be"
+		},
+		"res/UI/StartupScene_Mario.json": {
+			"md5": "540e13a61d4a6ca4ee5522032c3199a4"
+		},
+		"res/UI/StartupScene_MarioBros.json": {
+			"md5": "3bba3534f34c2ad0c590182d45c30504"
 		},
 		"res/UI/StartupScene_NESFC.json": {
 			"md5": "7382f48a8f0671ec11cf67fd910ac560"
@@ -5588,7 +5618,7 @@
 			"md5": "e06859bbce0363d9856c18661afbf0eb"
 		},
 		"src/framework/plugins/Google.js": {
-			"md5": "d31ec4a14f8788c745aa9ee74d40aee0"
+			"md5": "bbf371708363656813e044dcdcf1c50d"
 		},
 		"src/framework/plugins/IronSource.js": {
 			"md5": "9ae9142864c144f2b3cef78a2af1ba6b"
@@ -5597,7 +5627,7 @@
 			"md5": "35bb8f53cc21d2d600101ebd3fc7ad9f"
 		},
 		"src/framework/plugins/PlatformWrapper.js": {
-			"md5": "64e3de5674e559077e0a7a2e5d57fd8b"
+			"md5": "02f5d5ffa0030aff026c5b394bd01d9f"
 		},
 		"src/framework/plugins/Portal.js": {
 			"md5": "e943e77a0f1944259e0dc8f1b1a766bd"
@@ -5657,7 +5687,7 @@
 			"md5": "1fbbf170a6d2ee95f160f83dbb1b7ca0"
 		},
 		"src/NES/adsMgr.js": {
-			"md5": "cb02587de6fb2cb67f584592792999d1"
+			"md5": "f6ddeb445c7c66254f68666a6ad59c50"
 		},
 		"src/NES/Constant.js": {
 			"md5": "cdd598a589c99a5a3609bd40e88f2e7c"
@@ -5699,7 +5729,7 @@
 			"md5": "b5e54ca678dc4b43dafc0d95057029ac"
 		},
 		"src/NES/Game/GameLayer.js": {
-			"md5": "8acb632a7f05153bd8e0e36eef72369b"
+			"md5": "96c7046e4fd8d6893cf2acbe5e57d259"
 		},
 		"src/NES/Game/GameLayerMAME.js": {
 			"md5": "45995a97a11d4ee6e49680f0b52e737e"
@@ -5708,7 +5738,7 @@
 			"md5": "c3f763204fe39155b230df52cc145f5d"
 		},
 		"src/NES/Game/GameLayerSNK.js": {
-			"md5": "793509891670b3ff8fd6e88e243b5ec4"
+			"md5": "1a1e67b303c028a20d212a662487675b"
 		},
 		"src/NES/Game/Gamepad.js": {
 			"md5": "7852f68b3c3326092e4109b15e1e1f61"
@@ -5717,16 +5747,16 @@
 			"md5": "92a99db046682c34374c02a9fe431347"
 		},
 		"src/NES/gamedata.js": {
-			"md5": "2bb1dc4eab4819f3cd096145f4545836"
+			"md5": "6cf54f578b2a30ea4ecedf51e8b28e78"
 		},
 		"src/NES/Home/FindROMLayer.js": {
 			"md5": "a11857973e4c06cbc4a7a45cf9df99ce"
 		},
 		"src/NES/Home/Home.js": {
-			"md5": "2e1896ecbc2f905ee7aa0ad0973325a1"
+			"md5": "c31b07fd7c84c0ad84cd13fb4b3cb3c0"
 		},
 		"src/NES/Home/InfoRomLayer.js": {
-			"md5": "717ba7d43eb0e58e3056d79e77019072"
+			"md5": "3bd93570806afec15d594547d78fed25"
 		},
 		"src/NES/Home/ListRomCommon.js": {
 			"md5": "ec2c77dad038aa9258cf6ea346cf02bf"
@@ -5735,7 +5765,7 @@
 			"md5": "bdeb0b14ba1b952607a4e39444642bc0"
 		},
 		"src/NES/Home/ListRomLayer.js": {
-			"md5": "8e4aa9feafdc1f091a119d803e37b1d7"
+			"md5": "b6c563457eb873ac8f4d4b0fe3c3d6c8"
 		},
 		"src/NES/Home/ListRomMAME.js": {
 			"md5": "1dfbd1128b78d0ebb0d8dc1c772cbacf"
@@ -5753,13 +5783,13 @@
 			"md5": "0b7e0e057dfb95b3f295171921c4dc73"
 		},
 		"src/NES/Home/RemoveADSLayer.js": {
-			"md5": "fb5444362876a3a1a90c76461af676ad"
+			"md5": "943b31c0bf05858f60f9912202344b3c"
 		},
 		"src/NES/Home/Shop.js": {
-			"md5": "ac1996dc79a6c3cfe92d37bb5e1b4703"
+			"md5": "30bb43071da4cf9439a5b94f5b880da3"
 		},
 		"src/NES/Home/StartupScene.js": {
-			"md5": "a38a4ad1075c79d918290314fdd91f98"
+			"md5": "4b5372bbd8d1a1afed89e070559d0c1d"
 		},
 		"src/NES/initForWeb.js": {
 			"md5": "7c011e76000cab79d022a3b8cfdc2ae5"
@@ -5795,7 +5825,7 @@
 			"md5": "db152d2c52b1d698698fd93f57f7fa6c"
 		},
 		"src/NES/tracking.js": {
-			"md5": "8b22da707c2e3ff317fa557b629b529f"
+			"md5": "bec06f1a4c7922435be96799c481f11b"
 		},
 		"src/NES/UI/BaseLayer.js": {
 			"md5": "ddf95796444ad3e7c9299de2f15606fd"
@@ -5816,7 +5846,7 @@
 			"md5": "da33cc8f44cb962c90e2d317ec93d173"
 		},
 		"src/resource.js": {
-			"md5": "befa2c58ee9326088d08db911d59c77e"
+			"md5": "fd06dac350a80e622e7af681735e9d54"
 		}},
 	"group" : {},
     "searchPaths" : []
